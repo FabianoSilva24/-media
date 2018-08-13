@@ -1,0 +1,43 @@
+body{
+    background-color: wheat;
+    margin: 0;
+}
+
+h1{
+    color: blueviolet;
+    text-align: center;
+}
+
+div img{
+    width: 400px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+@media screen and (max-width:480px){
+    body{
+        background-color: blue;
+    }
+    img{
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:280px){
+    h1{
+        font-size: 10px;
+        color: wheat;
+    }
+}
+
+@media only screen and (max-width:768px){
+    body{
+        background-color: brown;
+    }
+}
+
+@media only screen and (orientation:landscape){
+    h1{
+        color: black;
+    }
+}
